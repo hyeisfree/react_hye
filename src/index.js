@@ -2,13 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 // import App from "./App";
-import Todo from "./App/Todo";
 import reportWebVitals from "./reportWebVitals";
+import AppProducts from "/src/App/AppProducts.jsx";
+import AppXY from "./App/AppXY";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Todo />
+    <AppProducts />
   </React.StrictMode>
 );
 
