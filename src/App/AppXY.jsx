@@ -14,7 +14,8 @@ export default function AppXY() {
     <div className="container" onMouseMove={pointerXY}>
       <div
         className="pointer"
-        style={{ transform: `translate(${pointer.x}px, ${pointer.y}px)` }}
+        // style={{ transform: `translate(${pointer.x}px, ${pointer.y}px)` }}
+        style={{ left: `${pointer.x}px`, top: `${pointer.y}px` }}
       ></div>
     </div>
   );
